@@ -1,0 +1,185 @@
+
+
+body {
+	display: flex;
+	flex-direction: column;
+    margin: 0;
+    align-items: center;
+    background-color: #e9ecef;
+    height: 100vh;
+}
+
+header {
+	display: flex;
+    width: 60%;
+    background-color: #474A51; 
+    padding: 1px; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+main{
+	width: 60%;
+}
+nav{
+	display: flex;
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+}
+nav div {
+    flex: 0 0 20%;
+}
+.page{
+	font-family: "Poppins", Arial, sans-serif;
+	line-height: 30px;
+}
+.content{
+	display: flex;
+	 
+    box-sizing: border-box; 
+    text-align: center;
+}
+.photo{
+	width: 29.9999999%; 
+    height: auto;
+}
+.content img {
+		display: block;            
+}
+.content-text {
+	margin-left: 140px;
+    margin-top: 200px; /* Отступ сверху для текста */
+    text-align: center;
+}
+.content2{
+	background-color: #C1CACA;
+	display: flex;
+	 
+    box-sizing: border-box; 
+    text-align: center;
+}
+.contacts{
+	width: 30%;;
+	font-size: 24px; 
+}
+.ul{
+	display: flex;
+}
+.li{
+	margin-left: 30px;
+}
+.content3{
+	 
+	 text-align: center;
+	 line-height: 20px;
+	 font-size: 21px; 
+
+}
+.aboutme{
+	background-color: #C1CACA;
+	
+	margin-top: 3px;
+	text-align: center;
+	font-size: 24px; 
+}
+/*.a{
+	background-color: #C1CACA;
+	width: 60%;
+	height: 30px;
+	margin-top: 23px;
+}*/
+
+.headertags{
+	background-color: #C1CACA;
+	width: 60%;
+	margin-top: 23px;
+	text-align: center;
+	font-size: 24px;
+}
+.headertag{
+	background-color: #C1CACA;
+	
+	margin-top: 23px;
+	text-align: center;
+	font-size: 24px;
+}
+.content4{
+	display: flex;
+	
+}
+.element{
+	width: 33%;
+}
+.li1{
+	font-size: 20px;
+}
+.active{
+	color: green ;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+.active:hover {
+    color: red;
+}
+
+.tags{
+	display: flex;
+}
+.skills{
+	margin-left: 100px;
+}
+.edu{
+	margin-left: 70px;
+}
+.lang{
+	margin-left: 110px;
+}
+footer{
+	display: flex;
+    width: 60%;
+    background-color: #474A51; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+.color{
+	color: #e9ecef;
+}
+.el{
+	width: 33.3%;
+}
+ .scroll-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.codeback{
+	background-color: #C5D0E6;
+	width: 20%;
+	display: flex;
+}
+.code{
+	margin-left: 10px;
+}
+.href{
+	
+	
+	margin-bottom: 20px;
+	text-align: center;
+}
+.ele{
+	border: 2px solid black;
+	margin-top: 10px;
+}
+.det{
+	display: flex;
+}
+.headertags1{
+	background-color: #C1CACA;
+	margin-top: 23px;
+	text-align: center;
+	font-size: 24px;
+}
